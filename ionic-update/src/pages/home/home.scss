@@ -1,0 +1,35 @@
+page-home {
+    .toolbar-background-md {
+        border-color: #239992;
+        background: #239a93;
+        border-bottom: 0 solid;
+    }
+
+    .toolbar-background {
+ 
+        background: #239a93;
+    }
+
+
+    .bar-button-default-ios, .bar-button-default.bar-button-ios-default, .bar-button-clear-ios-default {
+        color: #f4f4f4;
+        background-color: transparent;
+      }
+
+
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff;
+        background-color: transparent;
+    }
+
+    .img1{
+        padding-top: 12%;
+        height: 30vh;
+        width: auto;
+        margin: auto;
+        display: block;
+      }
+
+
+
+}

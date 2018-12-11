@@ -1,0 +1,47 @@
+
+  <!--
+  Generated template for the ContactPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-header>
+  </ion-header>
+  
+  <ion-content padding>
+   
+    <ion-fab   right bottom (click)="add()">
+      <button  ion-fab>اضافة نصيحة</button>
+    </ion-fab>
+  
+  
+      
+          <ion-card *ngFor="let item of items | async">
+
+
+  
+  
+  <div class="father" 
+  (click)="viewInfo(item.name,item.title,item.info)" >
+  
+          <ion-card-header>
+              <img align="right" class="img" src="assets/imgs/icons8-cv-48.png" >
+              <br>
+            {{item.title}}
+            </ion-card-header>
+          
+            <ion-card-content font-color="red">
+              {{item.name}}
+            </ion-card-content>
+    
+          </div>
+          
+          </ion-card>
+    
+</ion-content>
+
+
+
+  
